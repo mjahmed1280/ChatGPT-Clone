@@ -1,0 +1,38 @@
+
+.bade-papa {
+  max-width: 1380px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+   min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  /* justify-content: center; */
+  /* place-items: center; */
+ 
+  /* border: 2px rgb(244, 24, 204) dashed; */
+}
+
+.history-bar{
+  flex: 1;
+  box-sizing: border-box;
+  /* border: 2px rgb(241, 56, 15) dashed; */
+  margin-right: 5px;
+}
+
+.chat-record{
+  flex: 3;
+  /* border: 2px rgb(41, 238, 15) dashed; */
+  
+}
+
+
+
+
+
+
+
+
+
+
