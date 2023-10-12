@@ -2,12 +2,16 @@ import React from 'react'
 import {Button, ButtonGroup, Card,ListGroup, Form} from 'react-bootstrap';
 import { FaBeer, FaUser } from 'react-icons/fa';
 import { TbLetterJ } from "react-icons/tb";
+import { useMyContext } from './MyContext';
 
 function LeftBar() {
+
+    const { toggleButton } = useMyContext();
+
   return (
     <div style={{display:"flex", flexDirection:"column"}}>
         <ButtonGroup className='w-100'>
-            <Button variant='outline-dark'className='w-100 m-1'>+ New Chat</Button>
+            <Button variant='outline-dark'className='w-100 m-1' onClick={ toggleButton }>+ New Chat</Button>
             <Button variant='outline-dark'className='w-50 m-1'>#</Button>
         </ButtonGroup>
         <div>

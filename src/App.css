@@ -12,14 +12,17 @@
   /* place-items: center; */
  
   /* border: 2px rgb(244, 24, 204) dashed; */
+
 }
 
 .history-bar{
   flex: 1;
+
   box-sizing: border-box;
   /* border: 2px rgb(241, 56, 15) dashed; */
   margin-right: 5px;
 }
+
 
 .chat-record{
   flex: 3;
