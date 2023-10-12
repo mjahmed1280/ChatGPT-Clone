@@ -1,4 +1,5 @@
 # Chat-GPT -Clone lighter-version 
+![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 ### ⚡ Project under development
 ### A fun Side-project using React + Bootstarp
 
